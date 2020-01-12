@@ -164,4 +164,21 @@ MACD（指数平滑移动平均线）
 
 5.优化策略/放弃策略
 
-## 第一个Python程序
+# python数据处理相关模块
+
+量化投资实际上就是分析数据从而作出决策的过程。
+
+Numpy：数组批量计算
+
+Pandas：灵活的表计算
+
+Matplotlib：数据可视化
+
+# 如何使用python进行量化投资
+
+自己编写：numpy+pandas+matplotlb+……
+
+在线平台：聚宽、优矿、米筐、Quantopian、……
+
+开源框架：RQAlpha、QUANTAXIS、……
+
