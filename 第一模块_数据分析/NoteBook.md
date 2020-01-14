@@ -182,3 +182,14 @@ Matplotlib：数据可视化
 
 开源框架：RQAlpha、QUANTAXIS、……
 
+# IPython魔术命令
+
+以%开始的命令
+
+%run:执行文件代码
+
+%paste:执行粘贴板代码
+
+%timeit:评估运行时间
+
+%pdb:自动调试
