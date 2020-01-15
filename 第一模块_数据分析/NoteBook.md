@@ -193,3 +193,127 @@ Matplotlib：数据可视化
 %timeit:评估运行时间
 
 %pdb:自动调试
+
+# Numpy
+
+Numpy是高性能科学计算和数据分析的基础包。
+
+它是pandas等其它各种工具的基础。
+
+Numpy的主要功能：
+
+    1.ndarray，一个多维数组结构，高效且节省时间
+    
+    2.无需循环对整个数组数据进行快速运算的数学函数
+    
+    3.线性代数、随机数生成和傅立叶变换功能
+
+---
+
+创建ndarray：np.array(array_like)
+
+数组与列表的区别：
+    
+    数组对象内的元素类型必须相同
+    
+    数组大小不可修改
+    
+## ndarray-数据类型
+
+布尔型：bool_
+
+整形：int_ int8 int16 int 32 int64
+
+无符号整形：uint8 uint16 uint32 uint64
+
+浮点型：float_ float16 float32 float64
+
+复数型：complex_ complex64 complex128
+
+## ndarray-常用属性
+
+| code | attribute |
+| --- | --- |
+| T | 矩阵转置 |
+| size | 矩阵元素的个数 |
+| ndim | 矩阵的维数 |
+| shape | 矩阵的维度大小（元组形式） |
+| dtype | 矩阵元素的数据类型 | 
+
+## ndarray-创建
+
+| code | function |
+| --- | --- |
+| array() | 将列表转换为矩阵，可选择显式指定dtype |
+| arange() | range的numpy版，支持浮点数 |
+| linespace() | 类似arange()，第三个参数为矩阵长度 |
+| zeros() | 根据指定形状和dtype创建全0矩阵 |
+| ones() | 根据指定形状和dtype创建全1矩阵 |
+| empty() | 根据指定形状和dtype创建空矩阵（随机值） |
+| eyes() | 根据指定形状和dtype创建单位矩阵 |
+
+## ndarray-切片
+
+一维矩阵的切片：matrix[start:end]  
+
+多维矩阵的切片：matrix[row_start:row_end, col_start:col_end]
+
+矩阵切片与列表切片的不同：矩阵切片时并不会自动复制，而是创建一个视图，在切片矩阵上的修改会影响原矩阵。
+
+copy()方法可以创建矩阵的深拷贝
+
+## ndarray-花式索引
+
+
+## ndarray-通用函数
+
+通用函数：能同时对数组中所有元素进行运算的函数
+
+常见通用函数：
+
+    一元函数:abs, sqrt, exp, log, ceil, floor, rint, trunc, modf, isnan, isinf, cos, sin, tan
+    
+    二元函数:add, substract, multiply, divide, power, mod, maximum, mininum
+
+四舍五入:round
+
+## 浮点数特殊值
+
+nan(Not a Number):不等于任何浮点数（nan != nan）
+
+inf(infinity):比任何浮点数都大
+
+Numpy中创建特殊值：np.nan    np.inf
+
+在数据分析中，nan常被用作表示数据缺失值
+
+## NumPy-数学和统计方法
+
+sum:求和
+
+mean:求平均值
+
+std:求标准差
+
+var:求方差
+
+min:求最小值
+
+max:求最大值
+
+argmin:求最小值索引
+
+argmax:求最大值索引
+
+## NumPy-随机数生成
+
+随机数函数在np.random子包内
+
+| 函数 | 功能 |
+| --- | --- |
+| rand | 给定形状产生随机矩阵（0到1之间的数） |
+| randint | 给定形状产生随机整数 |
+| choice | 给定形状产生随机选择 |
+| shuffle | 与random.shuffle相同 |
+| uniform | 给定形状产生随机矩阵 |
+
