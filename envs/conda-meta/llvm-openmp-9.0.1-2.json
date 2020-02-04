@@ -1,0 +1,88 @@
+{
+  "build": "2",
+  "build_number": 2,
+  "channel": "https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/win-64",
+  "constrains": [
+    "clangdev 9.0.1|9.0.1.*",
+    "llvmdev 9.0.1|9.0.1.*",
+    "openmp 9.0.1|9.0.1.*"
+  ],
+  "depends": [
+    "vc >=14.1,<15.0a0"
+  ],
+  "extracted_package_dir": "D:\\MiniConda\\pkgs\\llvm-openmp-9.0.1-2",
+  "features": "",
+  "files": [
+    "Library/bin/libiomp5md.dll",
+    "Library/bin/libomp.dll",
+    "Library/include/omp.h",
+    "Library/lib/clang/9.0.1/include/omp.h",
+    "Library/lib/libiomp5md.lib",
+    "Library/lib/libomp.lib",
+    ".nonadmin"
+  ],
+  "fn": "llvm-openmp-9.0.1-2.tar.bz2",
+  "license": "NCSA",
+  "link": {
+    "source": "D:\\MiniConda\\pkgs\\llvm-openmp-9.0.1-2",
+    "type": 1
+  },
+  "md5": "4bf6e94c638d2351170726246cd5d2b3",
+  "name": "llvm-openmp",
+  "package_tarball_full_path": "D:\\MiniConda\\pkgs\\llvm-openmp-9.0.1-2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/libiomp5md.dll",
+        "path_type": "hardlink",
+        "sha256": "a8eaa3d0815deaa3f7d1defe60391299da83dc2f77f4ac929c6b5c21edaa9ad9",
+        "sha256_in_prefix": "a8eaa3d0815deaa3f7d1defe60391299da83dc2f77f4ac929c6b5c21edaa9ad9",
+        "size_in_bytes": 654848
+      },
+      {
+        "_path": "Library/bin/libomp.dll",
+        "path_type": "hardlink",
+        "sha256": "a8eaa3d0815deaa3f7d1defe60391299da83dc2f77f4ac929c6b5c21edaa9ad9",
+        "sha256_in_prefix": "a8eaa3d0815deaa3f7d1defe60391299da83dc2f77f4ac929c6b5c21edaa9ad9",
+        "size_in_bytes": 654848
+      },
+      {
+        "_path": "Library/include/omp.h",
+        "path_type": "hardlink",
+        "sha256": "907a977eac6a591967d1ddacab7cde78c1e3eacc0c103056265494ba2e2e690b",
+        "sha256_in_prefix": "907a977eac6a591967d1ddacab7cde78c1e3eacc0c103056265494ba2e2e690b",
+        "size_in_bytes": 16497
+      },
+      {
+        "_path": "Library/lib/clang/9.0.1/include/omp.h",
+        "path_type": "hardlink",
+        "sha256": "907a977eac6a591967d1ddacab7cde78c1e3eacc0c103056265494ba2e2e690b",
+        "sha256_in_prefix": "907a977eac6a591967d1ddacab7cde78c1e3eacc0c103056265494ba2e2e690b",
+        "size_in_bytes": 16497
+      },
+      {
+        "_path": "Library/lib/libiomp5md.lib",
+        "path_type": "hardlink",
+        "sha256": "4387e1573b913b374430b73993c54823834310002f53689250e6d925778fbafe",
+        "sha256_in_prefix": "4387e1573b913b374430b73993c54823834310002f53689250e6d925778fbafe",
+        "size_in_bytes": 167510
+      },
+      {
+        "_path": "Library/lib/libomp.lib",
+        "path_type": "hardlink",
+        "sha256": "4387e1573b913b374430b73993c54823834310002f53689250e6d925778fbafe",
+        "sha256_in_prefix": "4387e1573b913b374430b73993c54823834310002f53689250e6d925778fbafe",
+        "size_in_bytes": 167510
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "67115a17108ed9349fc8411c83f32b511fd34dd0bc29bf2badbf920e5a55b692",
+  "size": 566828,
+  "subdir": "win-64",
+  "timestamp": 1579608627330,
+  "track_features": "",
+  "url": "https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/win-64/llvm-openmp-9.0.1-2.tar.bz2",
+  "version": "9.0.1"
+}

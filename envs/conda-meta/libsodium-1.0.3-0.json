@@ -1,0 +1,306 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://mirrors.ustc.edu.cn/anaconda/pkgs/free/win-64",
+  "constrains": [],
+  "date": "2015-09-16",
+  "depends": [],
+  "extracted_package_dir": "D:\\MiniConda\\pkgs\\libsodium-1.0.3-0",
+  "features": "",
+  "files": [
+    "Library/include/sodium.h",
+    "Library/include/sodium/core.h",
+    "Library/include/sodium/crypto_aead_chacha20poly1305.h",
+    "Library/include/sodium/crypto_auth.h",
+    "Library/include/sodium/crypto_auth_hmacsha256.h",
+    "Library/include/sodium/crypto_auth_hmacsha512.h",
+    "Library/include/sodium/crypto_auth_hmacsha512256.h",
+    "Library/include/sodium/crypto_box.h",
+    "Library/include/sodium/crypto_box_curve25519xsalsa20poly1305.h",
+    "Library/include/sodium/crypto_core_hsalsa20.h",
+    "Library/include/sodium/crypto_core_salsa20.h",
+    "Library/include/sodium/crypto_core_salsa2012.h",
+    "Library/include/sodium/crypto_core_salsa208.h",
+    "Library/include/sodium/crypto_generichash.h",
+    "Library/include/sodium/crypto_generichash_blake2b.h",
+    "Library/include/sodium/crypto_hash.h",
+    "Library/include/sodium/crypto_hash_sha256.h",
+    "Library/include/sodium/crypto_hash_sha512.h",
+    "Library/include/sodium/crypto_int32.h",
+    "Library/include/sodium/crypto_int64.h",
+    "Library/include/sodium/crypto_onetimeauth.h",
+    "Library/include/sodium/crypto_onetimeauth_poly1305.h",
+    "Library/include/sodium/crypto_pwhash_scryptsalsa208sha256.h",
+    "Library/include/sodium/crypto_scalarmult.h",
+    "Library/include/sodium/crypto_scalarmult_curve25519.h",
+    "Library/include/sodium/crypto_secretbox.h",
+    "Library/include/sodium/crypto_secretbox_xsalsa20poly1305.h",
+    "Library/include/sodium/crypto_shorthash.h",
+    "Library/include/sodium/crypto_shorthash_siphash24.h",
+    "Library/include/sodium/crypto_sign.h",
+    "Library/include/sodium/crypto_sign_ed25519.h",
+    "Library/include/sodium/crypto_sign_edwards25519sha512batch.h",
+    "Library/include/sodium/crypto_stream.h",
+    "Library/include/sodium/crypto_stream_aes128ctr.h",
+    "Library/include/sodium/crypto_stream_chacha20.h",
+    "Library/include/sodium/crypto_stream_salsa20.h",
+    "Library/include/sodium/crypto_stream_salsa2012.h",
+    "Library/include/sodium/crypto_stream_salsa208.h",
+    "Library/include/sodium/crypto_stream_xsalsa20.h",
+    "Library/include/sodium/crypto_uint16.h",
+    "Library/include/sodium/crypto_uint32.h",
+    "Library/include/sodium/crypto_uint64.h",
+    "Library/include/sodium/crypto_uint8.h",
+    "Library/include/sodium/crypto_verify_16.h",
+    "Library/include/sodium/crypto_verify_32.h",
+    "Library/include/sodium/crypto_verify_64.h",
+    "Library/include/sodium/export.h",
+    "Library/include/sodium/randombytes.h",
+    "Library/include/sodium/randombytes_salsa20_random.h",
+    "Library/include/sodium/randombytes_sysrandom.h",
+    "Library/include/sodium/runtime.h",
+    "Library/include/sodium/utils.h",
+    "Library/include/sodium/version.h",
+    "Library/lib/libsodium.lib",
+    ".nonadmin"
+  ],
+  "fn": "libsodium-1.0.3-0.tar.bz2",
+  "license": "ISC",
+  "license_family": "Other",
+  "link": {
+    "source": "D:\\MiniConda\\pkgs\\libsodium-1.0.3-0",
+    "type": 1
+  },
+  "md5": "5a09934dfc4ecc754a98e84b99dfe8ce",
+  "name": "libsodium",
+  "package_tarball_full_path": "D:\\MiniConda\\pkgs\\libsodium-1.0.3-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/include/sodium.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/core.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_aead_chacha20poly1305.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_auth.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_auth_hmacsha256.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_auth_hmacsha512.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_auth_hmacsha512256.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_box.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_box_curve25519xsalsa20poly1305.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_core_hsalsa20.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_core_salsa20.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_core_salsa2012.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_core_salsa208.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_generichash.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_generichash_blake2b.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_hash.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_hash_sha256.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_hash_sha512.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_int32.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_int64.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_onetimeauth.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_onetimeauth_poly1305.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_pwhash_scryptsalsa208sha256.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_scalarmult.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_scalarmult_curve25519.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_secretbox.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_secretbox_xsalsa20poly1305.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_shorthash.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_shorthash_siphash24.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_sign.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_sign_ed25519.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_sign_edwards25519sha512batch.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_stream.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_stream_aes128ctr.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_stream_chacha20.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_stream_salsa20.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_stream_salsa2012.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_stream_salsa208.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_stream_xsalsa20.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_uint16.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_uint32.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_uint64.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_uint8.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_verify_16.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_verify_32.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/crypto_verify_64.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/export.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/randombytes.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/randombytes_salsa20_random.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/randombytes_sysrandom.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/runtime.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/utils.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/include/sodium/version.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Library/lib/libsodium.lib",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "None",
+  "size": 375995,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://mirrors.ustc.edu.cn/anaconda/pkgs/free/win-64/libsodium-1.0.3-0.tar.bz2",
+  "version": "1.0.3"
+}

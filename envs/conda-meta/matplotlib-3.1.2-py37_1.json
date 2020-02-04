@@ -1,0 +1,38 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base 3.1.2 py37h2981e6d_1",
+    "pyqt",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "D:\\MiniConda\\pkgs\\matplotlib-3.1.2-py37_1",
+  "features": "",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "matplotlib-3.1.2-py37_1.tar.bz2",
+  "license": "PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "D:\\MiniConda\\pkgs\\matplotlib-3.1.2-py37_1",
+    "type": 1
+  },
+  "md5": "bb797801a535c4a7b3e44a0296c7c2c0",
+  "name": "matplotlib",
+  "package_tarball_full_path": "D:\\MiniConda\\pkgs\\matplotlib-3.1.2-py37_1.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib",
+  "sha256": "23c1c84ecc57f6a26ead07b0fdd42ec97a3ca50d7bd2abbf2dbdf08391bb5f9d",
+  "size": 7038,
+  "subdir": "win-64",
+  "timestamp": 1573669441401,
+  "track_features": "",
+  "url": "https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/win-64/matplotlib-3.1.2-py37_1.tar.bz2",
+  "version": "3.1.2"
+}

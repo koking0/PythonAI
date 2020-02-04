@@ -1,0 +1,49 @@
+{
+  "build": "8_mkl",
+  "build_number": 8,
+  "channel": "https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/win-64",
+  "constrains": [
+    "libcblas 3.8.0 8_mkl",
+    "liblapack 3.8.0 8_mkl",
+    "liblapacke 3.8.0 8_mkl",
+    "blas * mkl"
+  ],
+  "depends": [
+    "mkl >=2019.0,<2020.0a0"
+  ],
+  "extracted_package_dir": "D:\\MiniConda\\pkgs\\libblas-3.8.0-8_mkl",
+  "features": "",
+  "files": [
+    "Library/bin/libblas.dll",
+    ".nonadmin"
+  ],
+  "fn": "libblas-3.8.0-8_mkl.tar.bz2",
+  "license": "BSD 3-clause",
+  "link": {
+    "source": "D:\\MiniConda\\pkgs\\libblas-3.8.0-8_mkl",
+    "type": 1
+  },
+  "md5": "e5a3233ff9ca48a52dce23430a080e36",
+  "name": "libblas",
+  "package_tarball_full_path": "D:\\MiniConda\\pkgs\\libblas-3.8.0-8_mkl.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/libblas.dll",
+        "path_type": "hardlink",
+        "sha256": "e7d4c7c16e2db64086140ccb1c3cc37cb83f0cb90f4940c0e7248e7f8852298e",
+        "sha256_in_prefix": "e7d4c7c16e2db64086140ccb1c3cc37cb83f0cb90f4940c0e7248e7f8852298e",
+        "size_in_bytes": 14857448
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1eae85ef6bdd88c240674f7383fce0b7fcb992bac680f13366590b64e7a824c0",
+  "size": 3644442,
+  "subdir": "win-64",
+  "timestamp": 1556666406326,
+  "track_features": "",
+  "url": "https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/win-64/libblas-3.8.0-8_mkl.tar.bz2",
+  "version": "3.8.0"
+}
